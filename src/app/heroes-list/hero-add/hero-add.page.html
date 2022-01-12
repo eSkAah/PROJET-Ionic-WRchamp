@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title>Ajouter un champion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label>Nom: </ion-label>
+    <ion-input type="text" [(ngModel)]="champ.name"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Surnom: </ion-label>
+    <ion-input type="text" [(ngModel)]="champ.surname"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Lane: </ion-label>
+    <ion-input type="text" [(ngModel)]="champ.lane"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Tier list: </ion-label>
+    <ion-input type="text" [(ngModel)]="champ.tier"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Image cadre : </ion-label>
+    <ion-input type="text" [(ngModel)]="champ.image"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Image profil : </ion-label>
+    <ion-input type="text" [(ngModel)]="champ.imgProfile"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Description: </ion-label>
+    <ion-input type="text" [(ngModel)]="champ.description"></ion-input>
+  </ion-item>
+
+  <ion-col size="8" offset="4">
+    <ion-button color="dark" class="ion-margin-top" (click)="addChampion()">Ajouter</ion-button>
+  </ion-col>
+
+</ion-content>

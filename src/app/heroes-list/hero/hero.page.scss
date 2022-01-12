@@ -1,0 +1,82 @@
+
+ion-title{
+  font-family:  sans wf,sans-serif;
+  font-weight: 900;
+  color: #C9B831;
+  font-style: italic;
+
+}
+
+ion-header{
+  margin-bottom: 10%;
+}
+
+h1{
+  font-family: sans wf,sans-serif;
+  font-weight: 900;
+  color: #fff;
+}
+
+h2  {
+  font-family: sans wf,sans-serif;
+  font-weight: 900;
+  color: #fff;
+  font-style: italic;
+}
+
+.data {
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: open sans wf,sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  padding: 4px 12px;
+  background: #7b6ce7;
+  border-radius: 15px;
+  min-width: 50px;
+}
+
+ion-button{
+  font-family:  sans wf,sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  font-style: italic;
+
+}
+
+.tier {
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: open sans wf,sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 15px;
+  min-width: 50px;
+  background: #f36c6c;
+}
+
+
+.additional-info{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.additional-info div {
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

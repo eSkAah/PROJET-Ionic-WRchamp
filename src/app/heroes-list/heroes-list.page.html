@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title>Liste des héros</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-text-center">
+  <ion-grid>
+    <ion-row>
+      <ion-col class=" wf-home-champions-champion" size="4" *ngFor="let champ of champs;">
+        <ion-card  [routerLink]="['/tab/heroes', champ.id]">
+          <ion-img [src]="champ.image" [alt]="champ.name"></ion-img>
+          <ion-card-content text-wrap class="wf-champion-name text-center">
+            {{champ.name}}
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

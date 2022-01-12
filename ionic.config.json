@@ -1,0 +1,7 @@
+{
+  "name": "IONIC-WRChamps",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

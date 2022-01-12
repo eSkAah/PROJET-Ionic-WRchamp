@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "IONIC-WRChamps",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
